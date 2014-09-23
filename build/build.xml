@@ -28,7 +28,7 @@
     </fileset>
   </path>
 
-  <target name="clean" description="Ant タスクで生成された全てのファイルを削除します">
+  <target name="clean" description="">
     <delete dir="${work.dir}" />
     <delete>
       <fileset dir="." includes="TEST*" />
