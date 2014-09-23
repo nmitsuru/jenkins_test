@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="Shift_JIS"?>
 <project basedir=".">
   <property name="work.dir"        location="work" />
   <property name="classes.dir"     location="${work.dir}/classes" />
   <property name="assemble.dir"    location="${work.dir}/assemble" />
-  <property name="src.dir"         location="../src/main" />
-  <property name="test.src.dir"    location="../src/test" />
+  <property name="src.dir"         location="../src" />
+  <property name="test.src.dir"    location="../test" />
   <property name="lib.dir"         location="../lib" />
   <property name="scripts.dir"     location="../scripts" />
   <property name="start.script"    location="${scripts.dir}/execute.bat" />
   <property name="test.report.dir" location="${work.dir}/test-report" />
 
-  <property name="src.encoding" value="UTF-8" />
+  <property name="src.encoding" value="Shift_JIS" />
   <property name="main.class"   value="sample.jenkins.Main" />
   <property name="test.class"   value="sample.jenkins.MainTest" />
   <property name="jar.name"     value="jenkins-sample.jar" />
