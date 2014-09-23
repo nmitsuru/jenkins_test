@@ -10,7 +10,7 @@
   <property name="start.script"    location="${scripts.dir}/execute.bat" />
   <property name="test.report.dir" location="${work.dir}/test-report" />
 
-  <property name="src.encoding" value="Shift_JIS" />
+  <property name="src.encoding" value="UTF-8" />
   <property name="main.class"   value="sample.jenkins.Main" />
   <property name="test.class"   value="sample.jenkins.MainTest" />
   <property name="jar.name"     value="jenkins-sample.jar" />
