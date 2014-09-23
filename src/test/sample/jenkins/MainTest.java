@@ -12,6 +12,6 @@ public class MainTest {
         String actual = Main.repeat("hoge", 5);
 
         // verify
-        assertThat(actual, is("hogehogehogehogehogehoge"));
+        assertThat(actual, is("hogehogehogehogehoge"));
     }
 }
